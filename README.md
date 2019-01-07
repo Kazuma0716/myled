@@ -8,7 +8,7 @@ GPIO25を使用
 $ git clone https://github.com/Kazuma0716/myled.git
 $ cd myled
 $ make
-$ sudo insmod myled .ko
+$ sudo insmod myled.ko
 $ sudo chmod 666 /dev/myled0
 ###点灯###
 $ echo 1 > /dev/myled0
